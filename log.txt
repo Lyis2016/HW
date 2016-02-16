@@ -1,0 +1,38 @@
+ktoporikov@ktoporikov-hp:~/university/new$ git show 1.0.0 
+tag 1.0.0
+Tagger: KyryloT <ktoporikov@cogniance.com>
+Date:   Tue Feb 16 14:42:13 2016 +0200
+
+add tag 1.0.0
+
+commit 7649ace2d42467f015f23cb56ddccb3cb69a8dee
+Author: KyryloT <ktoporikov@cogniance.com>
+Date:   Tue Feb 16 14:41:23 2016 +0200
+
+    add files
+
+diff --git a/log.txt b/log.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/test.txt b/test.txt
+new file mode 100644
+index 0000000..e69de29
+ktoporikov@ktoporikov-hp:~/university/new$ git show 1.0.1
+tag 1.0.1
+Tagger: KyryloT <ktoporikov@cogniance.com>
+Date:   Tue Feb 16 14:43:44 2016 +0200
+
+change test.txt
+
+commit f6f3c33b079ff6c4860bad13b7d8d744a4c10550
+Author: KyryloT <ktoporikov@cogniance.com>
+Date:   Tue Feb 16 14:43:24 2016 +0200
+
+    ruby vs. python in test.txt
+
+diff --git a/test.txt b/test.txt
+index e69de29..3f216c7 100644
+--- a/test.txt
++++ b/test.txt
+@@ -0,0 +1 @@
++ruby vs. python
